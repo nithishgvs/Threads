@@ -1,0 +1,102 @@
+Thread 0x74000fb58
+  at java.net.PlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (Native Method)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (AbstractPlainSocketImpl.java:409)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (ServerSocket.java:545)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (ServerSocket.java:513)
+  at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept()Ljava/net/Socket; (LocalRMIServerSocketFactory.java:52)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop()V (TCPTransport.java:400)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run()V (TCPTransport.java:372)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x74000fb38, line=0
+    objectId=0x74000fcd0, line=1
+    objectId=0x74000fd40, line=1
+    objectId=0x74000fdb0, line=2
+    objectId=0x74000fdd0, line=2
+    objectId=0x74000fd40, line=2
+    objectId=0x74000fdb0, line=3
+    objectId=0x74000fdd0, line=3
+    objectId=0x74000fdb0, line=4
+    objectId=0x74000fdf0, line=5
+    objectId=0x74000fdf0, line=6
+    objectId=0x74000fb58, line=7
+
+Thread 0x740001010
+  at java.net.PlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (Native Method)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (AbstractPlainSocketImpl.java:409)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (ServerSocket.java:545)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (ServerSocket.java:513)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop()V (TCPTransport.java:400)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run()V (TCPTransport.java:372)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x740000ff0, line=0
+    objectId=0x740001188, line=1
+    objectId=0x7400011f8, line=1
+    objectId=0x740001268, line=2
+    objectId=0x740001280, line=2
+    objectId=0x7400011f8, line=2
+    objectId=0x740001268, line=3
+    objectId=0x740001280, line=3
+    objectId=0x7400012a0, line=4
+    objectId=0x7400012a0, line=5
+    objectId=0x740001010, line=6
+
+Thread 0x740009348
+  at java.net.PlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (Native Method)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (AbstractPlainSocketImpl.java:409)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (ServerSocket.java:545)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (ServerSocket.java:513)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop()V (TCPTransport.java:400)
+  at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run()V (TCPTransport.java:372)
+  at java.lang.Thread.run()V (Thread.java:745)
+
+  locals:
+    objectId=0x740009328, line=0
+    objectId=0x7400094c0, line=1
+    objectId=0x740009530, line=1
+    objectId=0x7400095a0, line=2
+    objectId=0x7400095b8, line=2
+    objectId=0x740009530, line=2
+    objectId=0x7400095a0, line=3
+    objectId=0x7400095b8, line=3
+    objectId=0x7400095d8, line=4
+    objectId=0x7400095d8, line=5
+    objectId=0x740009348, line=6
+
+Thread 0x74000ff88
+
+  locals:
+
+Thread 0x740001728
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:139)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:164)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:209)
+
+  locals:
+    objectId=0x7400018b8, line=0
+    objectId=0x7400018a8, line=0
+    objectId=0x7400018b8, line=1
+    objectId=0x740001728, line=2
+    objectId=0x7400018d8, line=2
+
+Thread 0x740010100
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at java.lang.ref.Reference.tryHandlePending(Z)Z (Reference.java:191)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:153)
+
+  locals:
+    objectId=0x740010278, line=1
+    objectId=0x740010278, line=2
+    objectId=0x740010100, line=3
+
+Thread 0x740001ac0
+  at java.lang.OutOfMemoryError.<init>()V (OutOfMemoryError.java:48)
+  at org.nithish.threads.HeapDumpAnalyze.main([Ljava/lang/String;)V (HeapDumpAnalyze.java:15)
+
+  locals:
+    objectId=0x7400018e8, line=1
+

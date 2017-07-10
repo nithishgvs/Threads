@@ -36,6 +36,7 @@ public class DeadLockPractice {
 			}
 		}
 	}
+	
 
 	public static void main(String... args) throws InterruptedException {
 		ThreadDemo2 t2 = new ThreadDemo2();
